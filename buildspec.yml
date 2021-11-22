@@ -16,4 +16,4 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push minamicicd.jfrog.io/aihara-test-docker/${DOCKER_REPOSITORY}:${IMAGE_TAG}
+      - docker push minamicicd.jfrog.io/minami-container/${DOCKER_REPOSITORY}:${IMAGE_TAG}
